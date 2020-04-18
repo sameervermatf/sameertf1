@@ -7,3 +7,7 @@ provider "aws" {
 resource "aws_vpc" "myvpc" {
   cidr_block = "10.11.0.0/16"
 }
+
+resource "aws_vpc" "myvpc" {
+  cidr_block = "11.11.0.0/16"
+}
